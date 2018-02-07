@@ -1,0 +1,7 @@
+2018-02-01 17:18:56.166 [main] ERROR com.bfmzdx.csp.service.impl.WechatAuthServiceImpl - insertWechatAuth error:org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'dafahizhfdhaih' for key 'open_id'
+### The error may involve com.bfmzdx.csp.dao.WechatAuthDao.insertWechatAuth-Inline
+### The error occurred while setting parameters
+### SQL: INSERT   INTO   tb_wechat_auth(user_id,open_id,create_time)   VALUES   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'dafahizhfdhaih' for key 'open_id'
+; SQL []; Duplicate entry 'dafahizhfdhaih' for key 'open_id'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'dafahizhfdhaih' for key 'open_id'
